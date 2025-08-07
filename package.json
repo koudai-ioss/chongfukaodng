@@ -1,6 +1,4 @@
 {
-  "name": "zuiinjimeng-api",
-  "version": "1.0.0",
   "type": "module",
   "main": "api/generate.js",
   "dependencies": {}
