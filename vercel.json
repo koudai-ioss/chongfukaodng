@@ -2,16 +2,10 @@
   "version": 2,
   "functions": {
     "api/generate.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "nodejs18.x"      // ✅ 官方文档推荐写法
     }
   },
   "routes": [
-    {
-      "src": "/api/generate",
-      "methods": [
-        "POST"
-      ],
-      "dest": "api/generate.js"
-    }
+    { "src": "/api/generate", "methods": ["POST"], "dest": "api/generate.js" }
   ]
 }
