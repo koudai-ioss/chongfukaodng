@@ -1,8 +1,7 @@
 {
   "name": "zuiinjimeng-api",
   "version": "1.0.0",
-  "dependencies": {
-    "formidable": "^3.5.2",
-    "axios": "^1.6.2"
-  }
+  "type": "module",
+  "main": "api/generate.js",
+  "dependencies": {}
 }
